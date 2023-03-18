@@ -1,0 +1,335 @@
+
+
+    @font-face{
+        font-family:myfirstfont;
+        src:url('../fonts/\(A\)\ Arslan\ Wessam\ B\ \(A\)\ Arslan\ Wessam\ B.ttf');
+    }
+    :root{
+      --main-color:#ffffff;
+    }
+
+
+
+/* start navbar */
+
+.navbar{
+  background:linear-gradient(#ffffff,#fcfdf8);
+  position:relative;
+  
+}
+.navbar:after{
+  content: "";
+    position: absolute;
+    top: 80px;
+    left: 188px;
+    width: 1134px;
+    height: 2px;
+    background-color: rgb(221, 24, 155);
+    border-radius: 50%;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color:black;
+  font-size: 22px;
+}
+.navbar-nav{
+margin-right:500px;
+}
+.navbar-brand{
+  position:relative;
+  font-family:'myfirstfont';
+  font-size: 36px;
+  font-weight: bold;
+ 
+}
+.navbar-brand:after{
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: -16px;
+  width: 5px;
+  height: 5px;
+  background-color:rgb(221, 24, 155);
+  border-radius: 50%;
+}
+.nav-link{
+  float:right;
+  font-family:myfirstfont;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 12px;
+ 
+}
+
+
+
+/*end navbar */
+.land{
+  background: linear-gradient(#fefefe, #fffdfc,#f6f4f0,#f4f0ed,#f0eae5,#eae4dd);
+  width:100%;
+  height:100vh;
+
+
+}
+.land-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.imag-left{
+  width:100px;
+  height:100px;
+}
+.imag-left img:first-of-type{
+  position: absolute;
+    top: 328px;
+    left: 1002px;
+    border-radius: 50%;
+    width: 277px;
+    height: 302px;
+}
+.imag-left img:nth-of-type(2){
+  position: absolute;
+  top: 96px;
+  left: 1096px;
+  border-radius: 50%;
+  width: 171px;
+  height: 170px;
+}
+
+.imag-left img:last-of-type{
+  position: absolute;
+  top: 344px;
+  left: 591px;
+  border-radius: 50%;
+  width: 277px;
+  height: 302px;
+}
+/*start service*/
+.service{
+  padding-top: 120px;
+  padding-bottom: 50px;
+  background:linear-gradient(#eae4dd,#e9e4da);
+  position: relative;
+  
+}
+.service:after{
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 188px;
+  width: 1134px;
+  height: 2px;
+  background-color: rgb(221, 24, 155);
+  border-radius: 50%;
+}
+.servic-land{
+  display: flex;
+
+}
+.servic-info{
+  width: 40%;
+  padding: 41px;
+  font-family: 'myfirstfont';
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px
+
+}
+.servic-image{
+  width:20%;
+
+}
+.servic-image img{
+  width:200px;
+  height:200px;
+  border-radius: 103px 20px 20px 14px;
+  margin-bottom: 12px;
+}
+/*end service*/
+
+
+
+
+.land-info h2{
+  width: 414px;
+  margin-top: 200px;
+  font-family: 'myfirstfont';
+  font-size: 60px;
+}
+
+
+.imag-right img:first-of-type{
+  position: absolute;
+  top: 115px;
+  left: 240px;
+  border-radius: 50%;
+
+  width: 277px;
+  height: 302px;
+}
+.imag-right img:last-of-type{
+  position: absolute;
+  top: 460px;
+  left: 267px;
+  width: 277px;
+  height: 302px;
+  border-radius: 50%;
+}
+/*start gallery*/
+.gallary{
+  background:linear-gradient(#eae4dd,#e9e4da);
+  padding-top: 230px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.gallary:after{
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 188px;
+  width: 1134px;
+  height: 2px;
+  background-color: rgb(221, 24, 155);
+  border-radius: 50%;
+}
+.silde-info{
+  right: 295px;
+  top: 113px;
+  position: absolute;
+  width: 341px;
+  height: 270px;
+  background:linear-gradient(#cf7eb1,#c38a97) ;
+  z-index: 120;
+  border-radius: 50%;
+  padding: 10px;
+}
+.silde-info p{
+  position: absolute;
+  top: 92px;
+  width: 325px;
+  font-size: 27px;
+  font-family: 'myfirstfont';
+}
+.content-silde{
+  width:60%;
+  height:400px;
+  margin-right :300px;
+
+}
+.carousel-item img{
+  height: 450px;
+  border-radius: 10px 20px 10px 20px;
+  border: 40px solid white;
+  position: relative;
+  border-radius: 177px;
+}
+/* end gallary */
+/* start contact */
+.contact{
+  padding-top: 200px;
+padding-bottom: 100px;
+ background:linear-gradient(#eae4dd,#e9e4da);
+ position: relative;
+}
+.contact:after{
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 188px;
+  width: 1134px;
+  height: 2px;
+  background-color: rgb(221, 24, 155);
+  border-radius: 50%;
+}
+.contact .container{
+  display: flex;
+  justify-content: center;
+}
+.contact .container .contact-info{
+  width:40%;
+ 
+}
+.contact .container .contact-info h3{
+  font-size: 28px;
+  font-family:myfirstfont;
+}
+.contact .container .contact-info svg{
+  font-size: 20px;
+  margin-left: 10px;
+  color: rgb(221, 24, 155);
+}
+.contact .container .contact-info a{
+  text-decoration: none;
+  color:black;
+}
+.contact .container .contact-form{
+  width:50%;
+  background:linear-gradient(#cf7eb1,#c38a97) ;
+  padding:10px 0px;
+  border-radius:20px;
+  position: relative;
+}
+.contact .container .contact-form:after{
+  content: "";
+    background-image: url(../images/neoud.png);
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 84px;
+    height: 81px;
+   
+    display: block;
+    z-index: 10000;
+    background-size: cover;
+}
+.contact .container .contact-form form{
+  width:100%
+}
+.contact .container .contact-form form input,textarea{
+  display: block;
+  width:80%;
+  margin: 10px auto;
+  border:none;
+  padding: 10px;
+  border-radius:10px;
+}
+.contact .container .contact-form form input::placeholder,textarea::placeholder{
+  font-family: myfirstfont;
+  font-size: 28px;
+}
+textarea{
+  resize: none;
+  height:200px;
+}
+.contact .container .contact-form form input[type="submit"]{
+  width:200px;
+  background-color: white;
+color: rgb(221, 24, 155);
+margin: 5px auto;
+position: relative;
+}
+.contact .container .contact-form form input[type="submit"]:after{
+  content: "";
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:20px;
+  height:20px;
+  background-color: red;
+  z-index: 10000;
+}
+.contact .container .contact-form form input:hover:focus,textarea:hover:focus{
+  outline: none;
+}
+footer{
+   background:linear-gradient(#cf7eb1,#c38a97) ; ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:black;
+}
+/* end contact */
+
+
+  
